@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "marca": "Fierce",
+        "modelo": "FM18F9AM210D",
+        "rodado": 29,
+        "anio": "2019",
+        "color": "gris",
+        "peso": 16,
+        "tipo": "Montañera",
+        "precio": 299999,
+        "vendida": true
+    },
+    {
+        "id":2,
+        "marca": "Olmo",
+        "modelo": "Regal",
+        "rodado": 29,
+        "anio": "2022",
+        "color": "roja",
+        "peso": 16,
+        "tipo": "Montañera",
+        "precio": 120000,
+        "vendida": false
+    }
+]
