@@ -50,15 +50,15 @@ dhBici = {
 }
 }
 
-// console.log(dhBici.buscarBici(1));
-// console.log("-------------------------------")
-// console.log(dhBici.venderBici(1));
-// console.log("-------------------------------")
-// console.log(dhBici.biciParaLaVenta());
-// console.log("-------------------------------")
-// console.log(dhBici.totalDeVentas());
-// console.log(dhBici.aumentoBici(10));
-// console.log("-------------------------------")
-// console.log(dhBici.biciPorRodado(29));
-// console.log("-------------------------------")
+console.log(dhBici.buscarBici(1));
+console.log("-------------------------------")
+console.log(dhBici.venderBici(1));
+console.log("-------------------------------")
+console.log(dhBici.biciParaLaVenta());
+console.log("-------------------------------")
+console.log(dhBici.totalDeVentas());
+console.log(dhBici.aumentoBici(10));
+console.log("-------------------------------")
+console.log(dhBici.biciPorRodado(29));
+console.log("-------------------------------")
 dhBici.listarTodasLasBici()
