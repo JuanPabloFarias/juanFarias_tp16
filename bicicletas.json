@@ -9,7 +9,7 @@
         "peso": 16,
         "tipo": "Montañera",
         "precio": 299999,
-        "vendida": true
+        "vendida": false
     },
     {
         "id":2,
@@ -21,6 +21,18 @@
         "peso": 16,
         "tipo": "Montañera",
         "precio": 120000,
+        "vendida": false
+    },
+    {
+        "id":3,
+        "marca": "Dolphin",
+        "modelo": "7798085300025",
+        "rodado": 26,
+        "anio": "2022",
+        "color": "azul",
+        "peso": 13,
+        "tipo": "Montañera",
+        "precio": 250000,
         "vendida": false
     }
 ]
