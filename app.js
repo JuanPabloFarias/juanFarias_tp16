@@ -26,13 +26,39 @@ dhBici = {
             (accumulator, currentValue) => accumulator + currentValue.precio,
             0,)
         return calcular;
-    }
+    },
+    aumentoBici: function(porcentaje){
+        this.bicicletas = this.bicicletas.map(
+            function (x) {
+                x.precio += Math.round(x.precio * (porcentaje/100));
+                return x
+              })
+        return this.bicicletas
+    },
+    biciPorRodado: function(rodaje){
+        return this.bicicletas.filter(element => element.rodado === rodaje)
+    },
+    listarTodasLasBici: function(){
+    //     let acumulador = [];
+    // this.bicicletas.forEach(element => {
+    //     acumulador.push(element)
+    // });
+    // return acumulador;
+    for (let value of this.bicicletas) {
+        console.log(value);
+      }
+}
 }
 
-console.log(dhBici.buscarBici(1));
-console.log("-------------------------------")
-console.log(dhBici.venderBici(1));
-console.log("-------------------------------")
-console.log(dhBici.biciParaLaVenta());
-console.log("-------------------------------")
-console.log(dhBici.totalDeVentas());
+// console.log(dhBici.buscarBici(1));
+// console.log("-------------------------------")
+// console.log(dhBici.venderBici(1));
+// console.log("-------------------------------")
+// console.log(dhBici.biciParaLaVenta());
+// console.log("-------------------------------")
+// console.log(dhBici.totalDeVentas());
+// console.log(dhBici.aumentoBici(10));
+// console.log("-------------------------------")
+// console.log(dhBici.biciPorRodado(29));
+// console.log("-------------------------------")
+dhBici.listarTodasLasBici()
